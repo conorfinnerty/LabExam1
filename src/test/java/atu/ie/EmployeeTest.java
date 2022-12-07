@@ -30,10 +30,10 @@ class EmployeeTest {
         assertEquals(23, myEmployee.getName().length());
     }
 
-    @Test
-    void setName() {
-        myEmployee = new Employee();
-    }
+//    @Test
+//    void setName() {
+//        myEmployee = new Employee();
+//    }
 
     @Test
     void getPpsIdSuccess() {
@@ -41,12 +41,11 @@ class EmployeeTest {
     }
 
     @Test
-    void getPpsIdFail() {
-        assertEquals(8, myEmployee.getPpsId());
-    }
+    void getPpsIdFail() {  assertEquals(8, myEmployee.getPpsId());}
 
-    @Test
-    void setPpsId() {
-        myEmployee = new Employee();
-    }
+
+//    @Test
+//    void setPpsId() {
+//        myEmployee = new Employee();
+//    }
 }

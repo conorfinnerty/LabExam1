@@ -1,7 +1,5 @@
 package atu.ie;
 
-import java.sql.SQLOutput;
-
 public class Employee {
     private String name;
     private int ppsId;
@@ -28,6 +26,10 @@ public class Employee {
         this.ppsId = ppsId;
     }
 
+
+    void main(){
+
+    }
 }
 
 
